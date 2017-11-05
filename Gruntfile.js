@@ -21,6 +21,7 @@ module.exports = function (grunt) {
     swatch: {
       cerulean:{},
       cosmo:{},
+      bun:{},
       cyborg:{},
       darkly:{},
       flatly:{},
@@ -133,7 +134,7 @@ module.exports = function (grunt) {
     files[scssDest] = scssSrc;
     grunt.config('sass.dist.files', files);
     grunt.config('sass.dist.options.outputStyle', 'expanded');
- 
+
     grunt.task.run(['concat', 'sass:dist', 'exec:postcss', 'clean:build',
       compress ? 'compress:' + scssDest + ':' + '<%=builddir%>/' + theme + '/bootstrap.min.css' : 'none',
       'copy:css']);
