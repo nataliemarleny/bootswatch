@@ -5,7 +5,7 @@
 // Color system
 //
 
-$white:    #ddd !default;
+$white:    #fefefe !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
@@ -28,7 +28,7 @@ $green:   #3FB618 !default;
 $teal:    #20c997 !default;
 $cyan:    #9954BB !default;
 
-$primary:       $blue !default;
+$primary:       $gray-900 !default;
 $secondary:     $gray-800 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -49,7 +49,7 @@ $border-radius-sm:       0 !default;
 
 // Fonts
 
-$font-family-sans-serif: "Rozha One", "Rozha One", Calibri, Candara, Arial, sans-serif !default;
+$font-family-sans-serif: "Merriweather", "Merriweather", Calibri, Candara, Arial, sans-serif !default;
 
 $font-size-base: 0.9375rem !default;
 
