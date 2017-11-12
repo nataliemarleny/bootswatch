@@ -18,11 +18,11 @@ $gray-900: #212529 !default;
 $black:    #000 !default;
 
 $blue:    #14213D !default;
-$indigo:  #4056F4 !default;
+$indigo:  #9197AE !default;
 $purple:  #613d7c !default;
 $pink:    #FFBE0B !default;
 $red:     #CE2D4F !default;
-$orange:  #FB5607 !default;
+$orange:  #273043 !default;
 $yellow:  #FCA311 !default;
 $green:   #32936F !default;
 $teal:    #20c997 !default;
@@ -30,13 +30,13 @@ $cyan:    #9954BB !default;
 $silver:  #E5E5E5 !default;
 
 $primary:       $gray-900 !default;
-$secondary:     $yellow !default;
-$success:       $blue !default;
+$secondary:     $indigo !default;
+$success:       $yellow !default;
 $info:          $silver !default;
 $warning:       $pink !default;
 $danger:        $orange !default;
 $light:         $silver !default;
-$dark:          $gray-900 !default;
+$dark:          $blue !default;
 
 // Body
 
