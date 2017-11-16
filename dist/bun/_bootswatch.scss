@@ -11,6 +11,45 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Merriweather" !default;
 
 // Buttons =====================================================================
 
+.btn-group > .btn:first-of-type {
+margin-left: 0;
+-webkit-border-top-left-radius: 100px;
+-moz-border-radius-topleft: 100px;
+border-top-left-radius: 100px;
+-webkit-border-bottom-left-radius: 100px;
+-moz-border-radius-bottomleft: 100px;
+border-bottom-left-radius: 100px;
+}
+.btn-group > .btn:last-of-type,
+.btn-group > .dropdown-toggle {
+-webkit-border-top-right-radius: 100px;
+-moz-border-radius-topright: 100px;
+border-top-right-radius: 100px;
+-webkit-border-bottom-right-radius: 100px;
+-moz-border-radius-bottomright: 100px;
+border-bottom-right-radius: 100px;
+}
+
+.btn > .btn:first-of-type {
+margin-left: 0;
+-webkit-border-top-left-radius: 100px;
+-moz-border-radius-topleft: 100px;
+border-top-left-radius: 100px;
+-webkit-border-bottom-left-radius: 100px;
+-moz-border-radius-bottomleft: 100px;
+border-bottom-left-radius: 100px;
+}
+.btn > .btn:last-of-type,
+.btn > .dropdown-toggle {
+-webkit-border-top-right-radius: 100px;
+-moz-border-radius-topright: 100px;
+border-top-right-radius: 100px;
+-webkit-border-bottom-right-radius: 100px;
+-moz-border-radius-bottomright: 100px;
+border-bottom-right-radius: 100px;
+}
+
+
 // Typography ==================================================================
 
 body {

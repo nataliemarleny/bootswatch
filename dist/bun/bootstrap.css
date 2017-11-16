@@ -615,7 +615,7 @@ kbd {
   font-size: 90%;
   color: #fefefe;
   background-color: #212529;
-  border-radius: 5;
+  border-radius: 100;
 }
 
 kbd kbd {
@@ -2262,7 +2262,7 @@ select.form-control:focus::-ms-value {
   padding: 0.25rem 0.5rem;
   font-size: 0.8203125rem;
   line-height: 1.5;
-  border-radius: 5;
+  border-radius: 100;
 }
 
 select.form-control-sm:not([size]):not([multiple]), .input-group-sm > select.form-control:not([size]):not([multiple]),
@@ -2277,7 +2277,7 @@ select.form-control-sm:not([size]):not([multiple]), .input-group-sm > select.for
   padding: 0.5rem 1rem;
   font-size: 1.171875rem;
   line-height: 1.5;
-  border-radius: 20;
+  border-radius: 100;
 }
 
 select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.form-control:not([size]):not([multiple]),
@@ -3180,14 +3180,14 @@ fieldset[disabled] a.btn {
   padding: 0.5rem 1rem;
   font-size: 1.171875rem;
   line-height: 1.5;
-  border-radius: 20;
+  border-radius: 100;
 }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.8203125rem;
   line-height: 1.5;
-  border-radius: 5;
+  border-radius: 100;
 }
 
 .btn-block {
@@ -3610,7 +3610,7 @@ tbody.collapse.show {
 .input-group-sm > .input-group-btn > .input-group-addon.btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.8203125rem;
-  border-radius: 5;
+  border-radius: 100;
 }
 
 .input-group-addon.form-control-lg,
@@ -3618,7 +3618,7 @@ tbody.collapse.show {
 .input-group-lg > .input-group-btn > .input-group-addon.btn {
   padding: 0.5rem 1rem;
   font-size: 1.171875rem;
-  border-radius: 20;
+  border-radius: 100;
 }
 
 .input-group-addon input[type="radio"],
@@ -4913,13 +4913,13 @@ tbody.collapse.show {
 }
 
 .pagination-lg .page-item:first-child .page-link {
-  border-top-left-radius: 20;
-  border-bottom-left-radius: 20;
+  border-top-left-radius: 100;
+  border-bottom-left-radius: 100;
 }
 
 .pagination-lg .page-item:last-child .page-link {
-  border-top-right-radius: 20;
-  border-bottom-right-radius: 20;
+  border-top-right-radius: 100;
+  border-bottom-right-radius: 100;
 }
 
 .pagination-sm .page-link {
@@ -4929,13 +4929,13 @@ tbody.collapse.show {
 }
 
 .pagination-sm .page-item:first-child .page-link {
-  border-top-left-radius: 5;
-  border-bottom-left-radius: 5;
+  border-top-left-radius: 100;
+  border-bottom-left-radius: 100;
 }
 
 .pagination-sm .page-item:last-child .page-link {
-  border-top-right-radius: 5;
-  border-bottom-right-radius: 5;
+  border-top-right-radius: 100;
+  border-bottom-right-radius: 100;
 }
 
 .badge {
@@ -5057,7 +5057,7 @@ tbody.collapse.show {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #e9ecef;
-  border-radius: 20;
+  border-radius: 100;
 }
 
 @media (min-width: 576px) {
@@ -5655,7 +5655,7 @@ button.close {
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 20;
+  border-radius: 100;
   outline: 0;
 }
 
@@ -5692,8 +5692,8 @@ button.close {
           justify-content: space-between;
   padding: 15px;
   border-bottom: 1px solid #e9ecef;
-  border-top-left-radius: 20;
-  border-top-right-radius: 20;
+  border-top-left-radius: 100;
+  border-top-right-radius: 100;
 }
 
 .modal-header .close {
@@ -5902,7 +5902,7 @@ button.close {
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 20;
+  border-radius: 100;
 }
 
 .popover .arrow {
@@ -6045,8 +6045,8 @@ button.close {
   color: inherit;
   background-color: #f6f6f6;
   border-bottom: 1px solid #eaeaea;
-  border-top-left-radius: calc(20 - 1px);
-  border-top-right-radius: calc(20 - 1px);
+  border-top-left-radius: calc(100 - 1px);
+  border-top-right-radius: calc(100 - 1px);
 }
 
 .popover-header:empty {
@@ -9270,6 +9270,30 @@ a.text-dark:focus, a.text-dark:hover {
 
 .invisible {
   visibility: hidden !important;
+}
+
+.btn-group > .btn:first-of-type {
+  margin-left: 0;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.btn-group > .btn:last-of-type,
+.btn-group > .dropdown-toggle {
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.btn > .btn:first-of-type {
+  margin-left: 0;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.btn > .btn:last-of-type,
+.btn > .dropdown-toggle {
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
 }
 
 body {
