@@ -21,7 +21,7 @@ module.exports = function (grunt) {
     swatch: {
       cerulean:{},
       cosmo:{},
-      bun:{},
+      devsigner:{},
       cyborg:{},
       darkly:{},
       flatly:{},
